@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- ini icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- ini css kita sendiri -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- bagian awal navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Nizam</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    <!-- bagian akhir navbar -->
+
+    <!-- bagian awal home section -->
+    <section>
+        <div class="container-fluid text-center color-special">
+            <!-- Content here -->
+            <i class="bi bi-person-circle" style="font-size: 8rem; color: cornflowerblue;"></i>
+            <h1>Nizam</h1>
+            <h4>Pialang</h4>
+          </div>
+    </section>
+    <!-- bagian akhir home section -->
+    <!-- bagian awal about section  -->
+    <section>
+        <div class="container">
+            <!-- Content here -->
+            <div class="row text-center">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt inventore, temporibus quas facilis eum? Rem animi sed repellat! Molestias placeat incidunt, sit facere expedita nostrum facilis deserunt tempore non.</p>
+                </div>
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore tempore non necessitatibus labore vel. Maiores ea consectetur id assumenda perspiciatis. Sit ut, officiis dicta minima accusamus impedit culpa itaque quas.</p>
+                </div>
+            </div>
+          </div>
+    </section>
+    <!-- bagian akhir about section -->
+
+    <!-- bagian awal gallery section -->
+    <section>
+        <div class="container-fluid color-special">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>My Gallery</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bagian akhir gallery section -->
+ 
+    <!-- bagian awal contact section -->
+    <section>
+        <div class="container">
+          <div class="row text-center">
+           <div class="col">
+            <h2>contact Me</h2>
+           </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-8">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- bagian akhir contact secton -->
+
+    <!-- bagian awal footer section-->
+    <footer>
+        <div class="container-fluid text-center bg-dark text-light p-2">
+            <p>di buat dengan <i class="bi bi-heart"></i> oleh Nizam</p>
+        </div>
+    </footer>
+    <!-- bagian akhir foofter section-->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
